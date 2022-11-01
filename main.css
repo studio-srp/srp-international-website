@@ -72,26 +72,13 @@ nav{
     background-image: url("resource/images/services-d1.jpg");
 }
 /*Dark Mode ------------------------------------------------------------------------------------*/
-/** {*/
-/*    box-sizing: border-box;*/
-/*}*/
-
-/*body {*/
-/*    background-color: #fafafa;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    height: 100vh;*/
-/*    margin: 0;*/
-/*    transition: background 0.2s linear;*/
-/*}*/
 
 body.dark {
     background: #292C35;
     color: white;
 }
 .one-quarter{
-    width: 100px !important;
+    width: 60px !important;
 }
 .checkbox {
     opacity: 0;
@@ -128,5 +115,14 @@ body.dark {
     transform: translateX(24px);
 }
 
-
+@media (max-width: 991px) {
+    .nav-bg{
+        background-color: rgba(255, 255, 255, 0.9);
+        text-align: center;
+    }
+    .nav-bg li:hover{
+        background-color: rgba(2, 43, 160, 0.9);
+        color: white !important;
+    }
+}
 /*************************************************************************/
