@@ -25,7 +25,7 @@ nav{
     height: 10vh;
     z-index: 5;
     width: 100% !important;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .bg-nav{
     background-color: rgba(255, 255, 255, 0.91);
@@ -34,6 +34,7 @@ nav{
    min-height: 90vh;
 }
 
+
 .cover-banner-img{
     /*width: 100%;*/
     position: initial;
@@ -41,10 +42,13 @@ nav{
 
 }
 .cover-banner-content{
-    font-size: 1.2rem !important;
+    font-size: 1rem !important;
 }
 .main-heading{
     font-size: 3.5rem;
+}
+.sub-heading{
+    font-size: 2.5rem;
 }
 .img-services-box{
     height: 45vh;
@@ -125,4 +129,32 @@ body.dark {
         color: white !important;
     }
 }
+
+.h-md-45{
+    min-height: 45vh;
+}
 /*************************************************************************/
+
+
+.separator{
+    display:flex;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.separator .line{
+    height: 2px;
+    flex: 1;
+    background-color: rgba(49, 43, 43, 0.6);
+}
+
+.separator h2{
+    padding: 0 2rem;
+    font-size: 14px;
+    color: rgba(49, 43, 43, 0.6);
+}
+
+.icon-nro{
+    width: 3em;
+}
