@@ -19,20 +19,22 @@
     <title>Document</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-nav static-top pl-5 pr-5">
+<nav class="navbar navbar-expand-lg navbar-light bg-nav static-top pl-5 pr-5 ">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img src="resource/logo/srp-international-finale-logo.png" alt="..." height="36">
         </a>
-        <!--        <div class="d-flex justify-content-center align-items-center ">-->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+        <div class="collapse navbar-collapse justify-content-end align-items-baseline " id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto nav-bg">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">What we do</a>
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="services.html">What we do</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Latest news</a>
@@ -41,68 +43,135 @@
                     <a class="nav-link active" aria-current="page" href="#">Our reports</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                    <a class="nav-link active" aria-current="page" href="contactUs.html">Contact us</a>
                 </li>
 
             </ul>
+            <div class="one-quarter d-none d-lg-block " id="switch">
+                <div class="row">
+                    <div class="col-12">
+                        <input type="checkbox" class="checkbox" id="chk"/>
+                        <label class="label" for="chk">
+
+                            <div class="ball"></div>
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 d-flex justify-content-end align-items-center">
+                        <p class="lang">En</p>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end align-items-center">
+                        <p class="lang">Ar</p>
+                    </div>
+                </div>
+
+                <!--            </div>-->
+                <!--            </div>-->
+
+            </div>
         </div>
         <!--            <div class="container  d-flex justify-content-center align-items-center bg-success">-->
-        <div class="one-quarter d-none d-lg-block" id="switch">
-            <input type="checkbox" class="checkbox" id="chk"/>
-            <label class="label" for="chk">
 
-                <div class="ball"></div>
-            </label>
-            <!--            </div>-->
-            <!--            </div>-->
-
-        </div>
 
     </div>
 </nav>
 <section class="pt-nav">
 
-    <div id="cover-banner" class="container-fluid p-0">
-        <div class="row d-flex justify-content-center align-items-center border-g p-0 m-0">
-            <div class="col-lg-6 col-md-6 col-sm-12 pr-lg-5 p-0 col-12 h-90 row d-flex justify-content-center align-items-center border-g">
-                <div class="container border-g m-lg-5 m-sm-1">
-                    <h1 class="dark-blue-f main-heading">Your partner in all things <span
-                            class="font-weight-bold light-blue-f main-heading">corporate</span></h1>
-                    <p class="cover-banner-content">SRP International is a regional corporate services provider based in
-                        Sri Lanka with offices in
-                        the UK,
-                        Singapore, and Dubai.
-                        We provide a range of professional services required to guide our clients throughout their
-                        business
-                        journey.</p>
-                    <button class="btn btn-dark mt-lg-3 mb-xl-5">Get in touch</button>
+    <div id="cover-banner" class="container-fluid p-0 m-0">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+<!--                    <img src="..." class="" alt="...">-->
+                    <div class="row d-flex d-block w-100 justify-content-center align-items-center border-g p-0 m-0">
+                        <div class="col-lg-6 col-md-6 col-sm-12 p-0 col-12 h-90 row d-flex justify-content-center align-items-center border-g">
+                            <div class="container border-g mr-lg-5 ml-lg-5 m-sm-1 pr-lg-1 pl-lg-1">
+                                <h1 class="dark-blue-f main-heading">Your partner in all things <span
+                                        class="font-weight-bold light-blue-f main-heading">corporate</span></h1>
+                                <p class="cover-banner-content">SRP International is a regional corporate services provider based in
+                                    Sri Lanka with offices in
+                                    the UK,
+                                    Singapore, and Dubai.
+                                    We provide a range of professional services required to guide our clients throughout their
+                                    business
+                                    journey.</p>
+                                <button class="btn btn-dark mt-lg-3 mb-xl-5">Get in touch</button>
 
-                    <div class="row mt-5 d-flex justify-content-center align-items-center">
-                        <div class="col-md-4 text-xl-left ">
+                                <div class="row  d-flex justify-content-center align-items-start">
+                                    <div class="col-md-4 text-xl-left ">
 
-                            <h1 class="font-weight-bolder">200+</h1>
-                            <p>Happy Customers</p>
+                                        <h1 class="font-weight-bolder">200+</h1>
+                                        <p>Happy Customers</p>
 
 
+                                    </div>
+                                    <div class="col-md-4 text-left">
+                                        <h1 class="font-weight-bolder">300+</h1>
+                                        <p>Companies</p>
+                                    </div>
+                                    <div class=" col-md-4 text-left">
+                                        <h1 class="font-weight-bolder">1000+</h1>
+                                        <p>Companies</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-4 text-left">
-                            <h1 class="font-weight-bolder">300+</h1>
-                            <p>Companies</p>
-                        </div>
-                        <div class=" col-md-4 text-left">
-                            <h1 class="font-weight-bolder">1000+</h1>
-                            <p>Companies</p>
+                        <div class="col-lg-6 col-md-6 col-sm-12 pl-md-5 p-0 col-12 h-90  row  d-flex justify-content-end align-items-center border-g">
+                            <div>
+                                <img class="img-fluid" src="resource/images/Picture.png" alt="...">
+                            </div>
+
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 pl-md-5 p-0 col-12 h-90  row  d-flex justify-content-end align-items-center border-g">
-                <div>
-                    <img class="img-fluid" src="resource/images/Picture.png" alt="...">
+                <div class="carousel-item ">
+                    <div class="row d-flex d-block w-100 justify-content-center align-items-center border-g p-0 m-0">
+                        <div class="col-lg-5 col-md-5 col-sm-12 pr-lg-5 p-0 col-12 h-90 row d-flex justify-content-center align-items-center border-g">
+                            <div class="container border-g m-lg-5 m-sm-1">
+                                <h1 class="dark-blue-f main-heading">Your partner in all things <span
+                                        class="font-weight-bold light-blue-f main-heading">corporate</span></h1>
+                                <p class="cover-banner-content">SRP International is a regional corporate services provider based in
+                                    Sri Lanka with offices in
+                                    the UK,
+                                    Singapore, and Dubai.
+                                    We provide a range of professional services required to guide our clients throughout their
+                                    business
+                                    journey.</p>
+                                <button class="btn btn-dark mt-lg-3 mb-xl-5">Get in touch</button>
+
+
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-12 pl-md-5 p-0 col-12 h-90  row  d-flex justify-content-center align-items-center border-g">
+                            <div>
+                                <img class="img-fluid" src="resource/images/world%201.png" alt="...">
+                                <div class="row mt-5 d-flex justify-content-center align-items-center">
+                                    <div class="col-md-4 text-xl-left ">
+
+                                        <h1 class="font-weight-bolder">200+</h1>
+                                        <p>Happy Customers</p>
+
+
+                                    </div>
+                                    <div class="col-md-4 text-left">
+                                        <h1 class="font-weight-bolder">300+</h1>
+                                        <p>Companies</p>
+                                    </div>
+                                    <div class=" col-md-4 text-left">
+                                        <h1 class="font-weight-bolder">1000+</h1>
+                                        <p>Companies</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
                 </div>
 
             </div>
         </div>
+
     </div>
     <div id="what-we-offer-banner" class="container-fluid  ">
         <div class="row flex-column-reverse flex-md-row d-flex justify-content-lg-start align-items-center border-g">
@@ -138,7 +207,7 @@
                     <!--                <img src="resource/images/services-d1.jpg" class="img-services-box">-->
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 d-flex justify-content-center align-items-center"
-                     style="background-color: #022BA0; border:1px solid unset;">
+                     style="background-color: #061E75; border:1px solid unset;">
                     <p class="text-white">SRP International <strong>Secretarial team </strong> will begin engagement To
                         get your company set up</p>
                 </div>
@@ -147,7 +216,7 @@
 
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 d-flex justify-content-center align-items-center"
-                     style="border:1px solid unset; background-color: #022BA0;">
+                     style="border:1px solid unset; background-color: #061E75;">
                     <p class="text-white">SRP International <strong>Secretarial team </strong> will begin engagement To
                         get your company set up</p>
                 </div>
@@ -156,12 +225,12 @@
 
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 d-flex justify-content-center align-items-center"
-                     style="background-color: #022BA0; border:1px solid unset;">
+                     style="background-color: #061E75; border:1px solid unset;">
                     <p class="text-white">SRP International <strong>Secretarial team </strong> will begin engagement To
                         get your company set up</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 d-flex justify-content-center align-items-center"
-                     style="background-color: #022BA0; border:1px solid unset;">
+                     style="background-color: #061E75; border:1px solid unset;">
                     <p class="text-white">SRP International <strong>Secretarial team </strong> will begin engagement To
                         get your company set up</p>
                 </div>
@@ -171,7 +240,7 @@
                 </div>
 
                 <div class="col-lg-2 col-md-3 col-sm-6 d-flex justify-content-center align-items-center"
-                     style="border:1px solid unset;background-color: #022BA0;">
+                     style="border:1px solid unset;background-color:#061E75;">
                     <p class="text-white">SRP International <strong>Secretarial team </strong> will begin engagement To
                         get your company set up</p>
                 </div>
@@ -181,7 +250,7 @@
                 </div>
 
                 <div class="col-lg-2 col-md-3 col-sm-6 d-flex justify-content-center align-items-center"
-                     style="background-color: #022BA0; border:1px solid unset;">
+                     style="background-color:#061E75; border:1px solid unset;">
                     <p class="text-white">SRP International <strong>Secretarial team </strong> will begin engagement To
                         get your company set up</p>
                 </div>
@@ -199,7 +268,7 @@
                     <!--                <img src="resource/images/services-d1.jpg" class="img-services-box">-->
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 d-flex justify-content-center align-items-center"
-                     style="background-color: #022BA0; border:1px solid unset;">
+                     style="background-color: #061E75; border:1px solid unset;">
                     <p class="text-white">SRP International <strong>Secretarial team </strong> will begin engagement To
                         get your company set up</p>
                 </div>
@@ -208,12 +277,12 @@
 
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 d-flex justify-content-center align-items-center"
-                     style="border:1px solid unset; background-color: #022BA0;">
+                     style="border:1px solid unset; background-color: #061E75;">
                     <p class="text-white">SRP International <strong>Secretarial team </strong> will begin engagement To
                         get your company set up</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 d-flex justify-content-center align-items-center"
-                     style="background-color: #022BA0; border:1px solid unset;">
+                     style="background-color:#061E75; border:1px solid unset;">
                     <p class="text-white">SRP International <strong>Secretarial team </strong> will begin engagement To
                         get your company set up</p>
                 </div>
@@ -223,7 +292,7 @@
                 </div>
 
                 <div class="col-lg-2 col-md-3 col-sm-6 d-flex justify-content-center align-items-center"
-                     style="background-color: #022BA0; border:1px solid unset;">
+                     style="background-color:#061E75; border:1px solid unset;">
                     <p class="text-white">SRP International <strong>Secretarial team </strong> will begin engagement To
                         get your company set up</p>
                 </div>
@@ -262,13 +331,13 @@
                     <!--                <img src="resource/images/services-d1.jpg" class="img-services-box">-->
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 col-6  d-flex justify-content-center align-items-center"
-                     style="background-color: #022BA0; border:1px solid unset;">
+                     style="background-color: #061E75; border:1px solid unset;">
                     <p class="text-white">SRP International <strong>Secretarial team </strong> will begin engagement To
                         get your company set up</p>
                 </div>
 
                 <div class="col-lg-2 col-md-3 col-sm-6 col-6 d-flex justify-content-center align-items-center"
-                     style="border:1px solid unset; background-color: #022BA0;">
+                     style="border:1px solid unset; background-color: #061E75;">
                     <p class="text-white">SRP International <strong>Secretarial team </strong> will begin engagement To
                         get your company set up</p>
                 </div>
@@ -281,12 +350,12 @@
 
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 col-6 d-flex justify-content-center align-items-center"
-                     style="background-color: #022BA0; border:1px solid unset;">
+                     style="background-color: #061E75; border:1px solid unset;">
                     <p class="text-white">SRP International <strong>Secretarial team </strong> will begin engagement To
                         get your company set up</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 col-6 d-flex justify-content-center align-items-center"
-                     style="background-color: #022BA0; border:1px solid unset;">
+                     style="background-color:#061E75; border:1px solid unset;">
                     <p class="text-white">SRP International <strong>Secretarial team </strong> will begin engagement To
                         get your company set up</p>
                 </div>
@@ -299,12 +368,12 @@
 
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 col-6 d-flex justify-content-center align-items-center"
-                     style="border:1px solid unset;background-color: #022BA0;">
+                     style="border:1px solid unset;background-color:#061E75;">
                     <p class="text-white">SRP International <strong>Secretarial team </strong> will begin engagement To
                         get your company set up</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 col-6 d-flex justify-content-center align-items-center"
-                     style="background-color: #022BA0; border:1px solid unset;">
+                     style="background-color:#061E75; border:1px solid unset;">
                     <p class="text-white">SRP International <strong>Secretarial team </strong> will begin engagement To
                         get your company set up</p>
                 </div>
@@ -318,7 +387,7 @@
         </div>
 
     </div>
-    <div id="global-services-banner" class="container-fluid  ">
+    <div id="global-services-banner" class="container-fluid">
         <div class="row flex-column-reverse flex-md-row d-flex justify-content-center align-items-center border-g">
 
             <div class="col-lg-4 col-md-5 col-sm-12 col-12 p-0 col-12 h-md-45 row d-flex justify-content-center align-items-center border-g">
@@ -346,7 +415,7 @@
         </div>
         <div class="separator">
             <div class="line"></div>
-            <h2>scroll up discover us</h2>
+            <p>scroll up discover us</p>
             <div class="line"></div>
         </div>
     </div>
@@ -398,6 +467,53 @@
     </div>
 
 </section>
+<footer>
+    <div id="footer" class="container-fluid  ">
+        <div class="row flex-md-row d-flex justify-content-center align-items-start border-g mt-5   pt-5 pb-5">
+
+            <div class="col-lg-3 col-md-12 col-sm-12 col-12 p-0 col-12 m-1 pt-md-5 pt-sm-3 row d-flex justify-content-center align-items-center border-g">
+                <div class="container border-g m-lg-1 m-sm-1 border-g pl-lg-5  text-white">
+
+                    <h5 class="text-white">Latest News</h5>
+
+                    <p>Sri Lanka office : 176/1 Alwis Avenue, Castle St, Colombo 08</p>
+                    <p>Singapore office : 531 Upper Cross Street, #03-05 Hong Lim Complex, Singapore 050531</p>
+                    <p>Dubai office : IFZA Headquarters, Dubai Digital Park Blgs A2, PO Box 342001 Dubai UAE</p>
+                    <p>UK office : UK Office 23 Old Way Hathern, LEICSE</p>
+
+
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12 col-12 p-0 col-12 m-1 row pt-md-5 pt-sm-3 d-flex justify-content-center align-items-center border-g">
+                <div class="container border-g m-lg-1 m-sm-1 pl-lg-5 text-white">
+                    <h5 class="text-white">Contact Info</h5>
+
+                    <p>+94 (0) 11 268 5771</p>
+                    <p> info@silkroadpartners.lk</p>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12 col-12 p-0 col-12 m-1 row pt-md-5 pt-sm-3 d-flex justify-content-center align-items-center border-g">
+                <div class="container border-g m-lg-1 m-sm-1 pl-lg-5 ">
+                    <div class="container border-g m-lg-1 m-sm-1 pl-lg-5 text-white">
+                        <h5 class="text-white" style="border: ">Page Links</h5>
+
+                        <p>Who we are</p>
+
+
+
+
+                        <p> Contact Usk</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</footer>
 </body>
 <script>
     const chk = document.getElementById('chk');
