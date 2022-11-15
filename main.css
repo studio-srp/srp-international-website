@@ -272,7 +272,7 @@ body.dark {
      border-radius: 10px;
 }
  #contact-form{
-     background: url("resource/images/digital-technology-background-with-hexagon-frame-white-tone_53876-117507.webp") rgb(255, 255, 255) !important;
+     /*background: url("resource/images/digital-technology-background-with-hexagon-frame-white-tone_53876-117507.webp") rgb(255, 255, 255) !important;*/
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
