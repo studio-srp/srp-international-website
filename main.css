@@ -31,6 +31,16 @@ nav{
     width: 100% !important;
     font-size: 1rem;
 }
+.active{
+    color: rgba(155, 155, 155, 0.5) !important;
+}
+.active1{
+    color: rgba(2, 43, 160, 0.9) !important;
+}
+.nav-link:hover{
+    color: #0284E2!important;
+
+}
 .bg-nav{
     background-color: rgba(255, 255, 255, 0.91);
 }
@@ -48,6 +58,7 @@ nav{
 
 .cover-banner-content{
     font-size: 1rem !important;
+    color: black;
 }
 .main-heading{
     font-size: 3.5rem;
@@ -157,9 +168,9 @@ body.dark {
     background-color: rgba(155, 155, 155, 0.55);
 }
 .line{
-    height: 1px;
+    height: 1.2px;
     flex: 1;
-    background-color: rgba(155, 155, 155, 0.55);
+    background-color: rgb(255, 255, 255);
    width:7vw !important;
 }
 .separator p{
@@ -172,13 +183,13 @@ body.dark {
 }
 
 #footer{
-    background-color: #0B1431 !important;
+    background-color: #061E75 !important;
 }
 .bg-services{
-    background-color:  #0B1431;
+    background-color: #061E75;
 }
 .bg-services-img{
-    background: url("resource/images/header-nominees.jpg") rgba(4, 21, 70, 0.67) !important;
+    background: url("resource/images/header-nominees.jpg") rgba(6, 30, 117, 0.5) !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover !important;
@@ -254,7 +265,7 @@ body.dark {
     padding: 1%;
     margin: 1% 8%;
     color: #242424;
-    border: 0.5px solid rgba(4, 21, 70, 0.3);
+    border: 0.5px solid rgba(6, 30, 117, 0.5);
     border-radius: 10px;
 }
  .contact-form input::placeholder,
@@ -287,12 +298,12 @@ body.dark {
 .min-vh-20 {
     min-height:35vh !important;
 }
-.address-card :hover{
-    background-color: rgba(2, 43, 160, 0.9) ;
-    color: white;
-}
+/*.address-card :hover{*/
+/*    background-color: rgba(2, 43, 160, 0.9) ;*/
+/*    color: white;*/
+/*}*/
 .bg-contact{
-    background: url("resource/images/blossoming_inner_banner.jpg") rgba(4, 21, 70, 0.84);
+    background: url("resource/images/blossoming_inner_banner.jpg")rgba(6, 30, 117, 0.8);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -301,7 +312,7 @@ body.dark {
     background-blend-mode: multiply;
 }
 .bg-aboutUs{
-    background: url("resource/images/pngtree-hand-gesture-business-team-cooperation-win-win-photograph-with-picture-business-image_790758.jpg") rgba(4, 21, 70, 0.84);
+    background: url("resource/images/pngtree-hand-gesture-business-team-cooperation-win-win-photograph-with-picture-business-image_790758.jpg") rgba(6, 30, 117, 0.8);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -521,7 +532,7 @@ li{
     left: 0;
     width: 100%;
     padding: 25px 0;
-    background-color: rgba(2, 43, 160, 0.9);
+    background-color: rgba(2, 43, 160, 0.5);
     transition:all 0.3s ease 0s;
     border-radius: 0px 0px 10px 10px;
 
@@ -529,6 +540,7 @@ li{
 .our-team:hover .team-content{
     bottom: 10%;
     border-radius: 0px;
+    background-color: rgba(2, 43, 160, 0.9);
 }
 .our-team .team-content .name{
     font-size: 16px;
@@ -554,10 +566,35 @@ li{
     transition-delay:0.3s;
 }
 
-@media screen and (max-width:990px){
-    .our-team{
-        margin-bottom: 30px !important;
-    }
+
+
+/*===============reports==============*/
+.card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+
 }
 
 
+@media screen and (min-width: 577px) {
+    .cards-wrapper {
+        display: flex;
+    }
+
+
+}
+@media screen and (max-width: 576px) {
+    .card:not(:first-child) {
+        display: none;
+    }
+}
+
+.image-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.min-vh-card {
+    min-height: 65vh !important;
+}
