@@ -547,9 +547,10 @@ li{
 
 }
 .our-team:hover .team-content{
-    bottom: 10%;
+    /*bottom: 10%;*/
     border-radius: 0px;
-    background-color: rgba(2, 43, 160, 0.9);
+    background-color: rgba(2, 43, 160, 0.7);
+    display:block !important;
 }
 .our-team .team-content .name{
     font-size: 16px;
