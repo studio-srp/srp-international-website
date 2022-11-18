@@ -72,7 +72,7 @@ nav{
 }
 .blog-h2{
     font-size: 1.5rem;
-    background-color: #061E75;
+    background-color: #061E75 !important;
     color: #ffffff;
 }
 .lang{
