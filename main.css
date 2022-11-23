@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 
 *,
 *::before,
@@ -6,49 +6,52 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'poppins-bold', sans-serif !important;
+    font-family: "poppins-bold", sans-serif !important;
     /*overflow-x: hidden;*/
 }
-.border-g{
+.border-g {
     /*border: 1px solid green;*/
 }
-.border-r{
+
+.navbar {
+    z-index: 5000;
+}
+.border-r {
     border: 2px solid #c21e1e;
 }
-.light-blue-f{
-    color: #0284E2;
+.light-blue-f {
+    color: #0284e2;
 }
-.dark-blue-f{
-    color: #061E75;
+.dark-blue-f {
+    color: #061e75;
 }
-.pt-nav{
-    padding-top: 10vh!important;
+.pt-nav {
+    padding-top: 10vh !important;
 }
-nav{
+nav {
     position: fixed !important;
     height: 10vh;
-    z-index: 10!important;
+    z-index: 10 !important;
     width: 100% !important;
     font-size: 1rem;
 }
-.active{
+.active {
     color: rgba(155, 155, 155, 0.5) !important;
 }
-.active1{
+.active1 {
     color: rgba(2, 43, 160, 0.9) !important;
 }
-.nav-link:hover{
-    color: #0284E2!important;
-
+.nav-link:hover {
+    color: #0284e2 !important;
 }
-.bg-nav{
+.bg-nav {
     background-color: rgba(255, 255, 255, 0.91);
 }
-.h-90{
-   min-height: 90vh;
+.h-90 {
+    min-height: 90vh;
 }
 
-.btns-all{
+.btns-all {
     border-radius: 12px !important;
     font-size: 1rem !important;
     padding-left: 1.5rem !important;
@@ -57,59 +60,58 @@ nav{
     padding-top: 0.6rem !important;
     padding-bottom: 0.6rem !important;
 }
-.cover-banner-img{
+.cover-banner-img {
     /*width: 100%;*/
     position: initial;
     /*height: 100%;*/
-
 }
 
-.cover-banner-content{
+.cover-banner-content {
     font-size: 1rem !important;
     color: black;
 }
-.main-heading{
+.main-heading {
     font-size: 3.5rem;
 }
-.sub-heading{
+.sub-heading {
     font-size: 2.5rem;
 }
-.blog-heading{
+.blog-heading {
     font-size: 1.8rem;
-    color: #061E75;
+    color: #061e75;
 }
-.blog-h2{
+.blog-h2 {
     font-size: 1.5rem;
-    background-color: #061E75 !important;
+    background-color: #061e75 !important;
     color: #ffffff;
 }
-.lang{
+.lang {
     font-size: 0.7rem;
 }
-.img-services-box{
+.img-services-box {
     height: 45vh;
     width: 16.66vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.isb-1{
+.isb-1 {
     background-image: url("resource/SRP-Home/company-secretarial--6.png");
 }
-.isb-2{
+.isb-2 {
     background-image: url("resource/SRP-Home/Financial-service---3.png");
 }
-.isb-3{
+.isb-3 {
     background-image: url("resource/SRP-Home/Human-resource---5.png");
 }
-.isb-4{
+.isb-4 {
     background-image: url("resource/SRP-Home/research---1.png");
 }
-.isb-5{
+.isb-5 {
     background-image: url("resource/SRP-Home/company-secretarial--6.png");
 }
-.isb-6{
-    background-image:url("resource/SRP-Home/company-secretarial--6.png");
+.isb-6 {
+    background-image: url("resource/SRP-Home/company-secretarial--6.png");
 }
 /*Dark Mode ------------------------------------------------------------------------------------*/
 
@@ -117,7 +119,7 @@ body.dark {
     /*background: #292C35;*/
     /*color: white;*/
 }
-.one-quarter{
+.one-quarter {
     width: 60px !important;
 }
 .checkbox {
@@ -126,7 +128,7 @@ body.dark {
 }
 
 .label {
-    background-color: #D9D9D9;
+    background-color: #d9d9d9;
     border-radius: 50px;
     cursor: pointer;
     /*display: flex;*/
@@ -140,7 +142,7 @@ body.dark {
 }
 
 .label .ball {
-    background-color:#022BA0;
+    background-color: #022ba0;
     border-radius: 50%;
     position: absolute;
     top: 2px;
@@ -156,56 +158,54 @@ body.dark {
 }
 
 @media (max-width: 991px) {
-    .nav-bg{
+    .nav-bg {
         background-color: rgba(255, 255, 255, 0.9);
         text-align: center;
     }
-    .nav-bg li:hover{
+    .nav-bg li:hover {
         background-color: rgba(2, 43, 160, 0.9);
         color: white !important;
     }
 }
 
-.h-md-45{
+.h-md-45 {
     min-height: 45vh;
 }
 /*************************************************************************/
 
-
-.separator{
-    display:flex;
+.separator {
+    display: flex;
     align-items: center;
-    padding-left: 20% ;
-    padding-right: 20% ;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
-.separator .line{
+.separator .line {
     height: 1px;
     flex: 1;
     background-color: rgba(155, 155, 155, 0.55);
 }
-.line{
+.line {
     height: 1.2px;
     flex: 1;
     background-color: rgb(255, 255, 255);
-   width:7vw !important;
+    width: 7vw !important;
 }
-.separator p{
+.separator p {
     padding: 0 2rem;
 }
 
-
-.icon-nro{
+.icon-nro {
     width: 3em;
 }
 
-#footer{
-    background-color: #061E75 !important;
+#footer {
+    background-color: #061e75 !important;
 }
-.bg-services{
-    background-color: #061E75;
+.bg-services {
+    background-color: #061e75;
 }
-.bg-services-img{
+.bg-services-img {
     background: url("resource/images/header-nominees.jpg") rgba(6, 30, 117, 0.5) !important;
     background-position: center;
     background-repeat: no-repeat;
@@ -213,13 +213,12 @@ body.dark {
     background-blend-mode: multiply;
 }
 
-.services-li-logo{
-
+.services-li-logo {
 }
-.bg-black{
+.bg-black {
     background-color: black;
 }
-.cover-topic{
+.cover-topic {
     font-size: 8em;
     font-weight: bolder;
     position: absolute;
@@ -227,10 +226,9 @@ body.dark {
     left: 10%;
 }
 
-.item-service{
-    border-radius:10px !important;
+.item-service {
+    border-radius: 10px !important;
 }
-
 
 /*----------animated icon----------*/
 .box {
@@ -253,18 +251,16 @@ body.dark {
 
 /****************contact us*************/
 
-
-
- .map {
+.map {
     width: 100%;
     float: left;
 }
 .contact-form {
-    width:100%;
+    width: 100%;
     /*margin-left: 2%;*/
     float: left;
 }
- .contact-form .title {
+.contact-form .title {
     font-size: 2.5em;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -285,42 +281,41 @@ body.dark {
     border: 0.5px solid rgba(6, 30, 117, 0.5);
     border-radius: 10px;
 }
- .contact-form input::placeholder,
- .contact-form textarea::placeholder {
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
     color: #242424;
 }
- .contact-form .btn-send {
+.contact-form .btn-send {
     background: rgba(2, 43, 160, 0.9);
     width: 180px;
     height: 60px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: 700;
     margin: 2% 8%;
     border: none;
-     border-radius: 10px;
+    border-radius: 10px;
 }
- #contact-form{
-     /*background: url("resource/images/digital-technology-background-with-hexagon-frame-white-tone_53876-117507.webp") rgb(255, 255, 255) !important;*/
-     background-size: cover;
-     background-position: center;
-     background-repeat: no-repeat;
-     background-blend-mode: multiply;
- }
+#contact-form {
+    /*background: url("resource/images/digital-technology-background-with-hexagon-frame-white-tone_53876-117507.webp") rgb(255, 255, 255) !important;*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
 /*******************contact address****************/
-.address-card{
+.address-card {
     border-radius: 10px;
     /*border: 1px rgba(44, 42, 42, 0.35) solid ;*/
-
 }
 .min-vh-20 {
-    min-height:35vh !important;
+    min-height: 35vh !important;
 }
 /*.address-card :hover{*/
 /*    background-color: rgba(2, 43, 160, 0.9) ;*/
 /*    color: white;*/
 /*}*/
-.bg-contact{
-    background: url("resource/images/blossoming_inner_banner.jpg")rgba(6, 30, 117, 0.8);
+.bg-contact {
+    background: url("resource/images/blossoming_inner_banner.jpg") rgba(6, 30, 117, 0.8);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -328,8 +323,9 @@ body.dark {
     /*background-size: cover;*/
     background-blend-mode: multiply;
 }
-.bg-aboutUs{
-    background: url("resource/images/pngtree-hand-gesture-business-team-cooperation-win-win-photograph-with-picture-business-image_790758.jpg") rgba(6, 30, 117, 0.8);
+.bg-aboutUs {
+    background: url("resource/images/pngtree-hand-gesture-business-team-cooperation-win-win-photograph-with-picture-business-image_790758.jpg")
+        rgba(6, 30, 117, 0.8);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -337,7 +333,7 @@ body.dark {
     /*background-size: cover;*/
     background-blend-mode: multiply;
 }
-li{
+li {
     cursor: pointer;
 }
 
@@ -377,7 +373,7 @@ li{
     transform: scale(1.02);
     z-index: 9;
     cursor: pointer;
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
 .solution_cards_box .solution_card:hover::before {
@@ -387,7 +383,7 @@ li{
 .solution_cards_box .solution_card:hover .solu_title h3,
 .solution_cards_box .solution_card:hover .solu_description p {
     color: #fff;
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
 .solution_cards_box .solution_card:before {
@@ -405,7 +401,7 @@ li{
 
 .solution_cards_box .solution_card:hover .solu_description button {
     background: #fff !important;
-    color:rgba(2, 43, 160, 0.9);
+    color: rgba(2, 43, 160, 0.9);
 }
 
 .solution_card .so_top_icon {
@@ -427,10 +423,10 @@ li{
     border: 0;
     border-radius: 15px;
     background: linear-gradient(
-            140deg,
-            rgba(2, 43, 160, 0.9) 0%,
-            rgba(2, 43, 160, 0.9) 50%,
-            rgba(2, 43, 160, 0.9) 75%
+        140deg,
+        rgba(2, 43, 160, 0.9) 0%,
+        rgba(2, 43, 160, 0.9) 50%,
+        rgba(2, 43, 160, 0.9) 75%
     ) !important;
     color: #fff;
     font-weight: 500;
@@ -518,13 +514,13 @@ li{
     }
 }
 /*************our team***************/
-.our-team{
+.our-team {
     text-align: center;
     position: relative;
     color: #fff;
     border-radius: 10px;
 }
-.our-team:before{
+.our-team:before {
     content: "";
     position: absolute;
     top: 0;
@@ -532,76 +528,69 @@ li{
     width: 100%;
     height: 100%;
     background-color: rgba(2, 43, 160, 0.3);
-    transition:all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
     opacity: 0;
 }
-.our-team:hover:before{
+.our-team:hover:before {
     opacity: 1;
     border-radius: 10px;
 }
-.our-team img{
+.our-team img {
     width: 100%;
-    height: auto ;
+    height: auto;
     border-radius: 10px;
 }
-.our-team .team-content{
+.our-team .team-content {
     position: absolute;
     bottom: 0px;
     left: 0;
     width: 100%;
     padding: 25px 0;
     background-color: rgba(2, 43, 160, 0.5);
-    transition:all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
     border-radius: 0px 0px 10px 10px;
-
 }
-.our-team:hover .team-content{
+.our-team:hover .team-content {
     /*bottom: 10%;*/
     border-radius: 0px;
     background-color: rgba(2, 43, 160, 0.7);
-    display:block !important;
+    display: block !important;
 }
-.our-team .team-content .name{
+.our-team .team-content .name {
     font-size: 1rem;
     font-weight: 500;
     /*letter-spacing: 1px;*/
     display: block;
     margin-bottom: 7px;
     text-transform: uppercase;
-    transition:all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
-.our-team:hover .team-content .name{
+.our-team:hover .team-content .name {
     /*transform:translateY(40px);*/
-    transition-delay:0.3s;
+    transition-delay: 0.3s;
 }
-.our-team .team-content .post{
+.our-team .team-content .post {
     font-size: 0.8rem;
     display: block;
-    transition:all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
     text-transform: capitalize;
 }
-.our-team:hover .team-content .post{
+.our-team:hover .team-content .post {
     /*transform:translateY(-40px);*/
-    transition-delay:0.3s;
+    transition-delay: 0.3s;
 }
-
-
 
 /*===============reports==============*/
 .card {
     border: none;
     border-radius: 0;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-
 }
-
 
 @media screen and (min-width: 577px) {
     .cards-wrapper {
         display: flex;
     }
-
-
 }
 @media screen and (max-width: 576px) {
     .card:not(:first-child) {
@@ -616,57 +605,54 @@ li{
 
 .btn-view-report {
     color: #fff !important;
-    background-color: #061E75 !important;
-    border-color: #061E75;
+    background-color: #061e75 !important;
+    border-color: #061e75;
 }
 
 .btn-view-report:hover {
     color: #fff !important;
-    background-color: #0284E2 !important;
+    background-color: #0284e2 !important;
     border-color: #0062cc;
 }
 
-.date-card{
+.date-card {
     color: #fff !important;
-    background-color: #061E75 !important;
-    border-color: #061E75;
+    background-color: #061e75 !important;
+    border-color: #061e75;
 }
 
 /************timeline*********************/
 
-
 /*=========homepage counter===============*/
-#shiva
-{
+#shiva {
     width: 100px;
     height: 100px;
     background: red;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
-    float:left;
-    margin:5px;
+    float: left;
+    margin: 5px;
 }
-.count
-{
+.count {
     line-height: 100px;
-    color:white;
-    margin-left:30px;
-    font-size:25px;
+    color: white;
+    margin-left: 30px;
+    font-size: 25px;
 }
 #talkbubble {
     width: 120px;
     height: 80px;
     background: red;
     position: relative;
-    -moz-border-radius:    10px;
+    -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    border-radius:         10px;
-    float:left;
-    margin:20px;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
 }
 #talkbubble:before {
-    content:"";
+    content: "";
     position: absolute;
     right: 100%;
     top: 26px;
@@ -677,9 +663,140 @@ li{
     border-bottom: 13px solid transparent;
 }
 
-.linker
-{
-    font-size : 20px;
-    font-color: black;
+.linker {
+    font-size: 20px;
+    color: black;
 }
 
+/* Positioning Countries on the map */
+@media (min-width: 992px) {
+    .srilanka {
+        position: absolute;
+        width: 15px;
+        opacity: 0;
+        top: 222.5px;
+        right: 186px;
+        transition: 0.3s ease-in all;
+        backface-visibility: hidden;
+    }
+
+    .uk {
+        position: absolute;
+        width: 23px;
+        top: 143px;
+        left: 249px;
+        opacity: 0;
+        transition: 0.3s ease-in all;
+        backface-visibility: hidden;
+    }
+    .dubai {
+        position: absolute;
+        width: 23px;
+        top: 196.5px;
+        left: 317px;
+        opacity: 0;
+        transition: 0.3s ease-in all;
+        backface-visibility: hidden;
+    }
+    .singapore {
+        position: absolute;
+        width: 21px;
+        bottom: 132px;
+        right: 157px;
+        opacity: 0;
+        transition: 0.3s ease-in all;
+        backface-visibility: hidden;
+    }
+
+    .srilanka:hover {
+        right: 150px;
+        top: 60px;
+        width: 150px;
+        opacity: 1;
+    }
+
+    .uk:hover {
+        top: 30px;
+        left: 135px;
+        width: 200px;
+        opacity: 1;
+    }
+
+    .singapore:hover {
+        opacity: 1;
+        width: 300px;
+        bottom: 80px;
+        right: 67px;
+    }
+
+    .dubai:hover {
+        width: 300px;
+        top: 50.5px;
+        left: 150px;
+        opacity: 1;
+    }
+}
+
+@media (min-width: 1200px) {
+    .srilanka {
+        width: 15px;
+        top: 269.5px;
+        right: 226px;
+        opacity: 0;
+    }
+
+    .uk {
+        width: 32px;
+        top: 168px;
+        left: 288px;
+    }
+
+    .singapore {
+        width: 21px;
+        bottom: 158px;
+        right: 185px;
+    }
+
+    .dubai {
+        width: 23px;
+        top: 242.5px;
+        left: 381px;
+    }
+
+    .singapore:hover {
+        width: 300px;
+        bottom: 80px;
+        right: 80px;
+    }
+
+    .uk:hover {
+        top: 30px;
+        left: 165px;
+        width: 200px;
+        opacity: 1;
+    }
+
+    .dubai:hover {
+        width: 300px;
+        top: 100.5px;
+        left: 210px;
+    }
+}
+
+@media (max-width: 992px) {
+    .srilanka {
+        display: none;
+    }
+
+    .dubai {
+        display: none;
+    }
+
+    .uk {
+        display: none;
+    }
+
+    .singapore {
+        display: none;
+    }
+}
