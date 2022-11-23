@@ -48,7 +48,15 @@ nav{
    min-height: 90vh;
 }
 
-
+.btns-all{
+    border-radius: 12px !important;
+    font-size: 1rem !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    padding-top: 0.6rem !important;
+    padding-bottom: 0.6rem !important;
+}
 .cover-banner-img{
     /*width: 100%;*/
     position: initial;
@@ -352,8 +360,7 @@ li{
 .solution_cards_box .solution_card {
     flex: 0 100%;
     background: #fff;
-    box-shadow: 0 2px 4px 0 rgba(136, 144, 195, 0.2),
-    0 5px 15px 0 rgba(37, 44, 97, 0.15);
+    box-shadow: 0 2px 4px 0 rgba(175, 180, 199, 0.09), 0 5px 15px 0 rgba(155, 157, 180, 0.15);
     border-radius: 15px;
     margin: 8px;
     padding: 15px;
@@ -370,6 +377,7 @@ li{
     transform: scale(1.02);
     z-index: 9;
     cursor: pointer;
+    text-decoration: none!important;
 }
 
 .solution_cards_box .solution_card:hover::before {
@@ -379,19 +387,20 @@ li{
 .solution_cards_box .solution_card:hover .solu_title h3,
 .solution_cards_box .solution_card:hover .solu_description p {
     color: #fff;
+    text-decoration: none!important;
 }
 
 .solution_cards_box .solution_card:before {
-    content: "";
-    position: absolute;
-    background: rgb(85 108 214 / 5%);
-    width: 370px;
-    height: 200px;
-    z-index: -1;
-    transform: rotate(42deg);
-    right: -56px;
-    top: -23px;
-    border-radius: 35px;
+    /*content: "";*/
+    /*position: absolute;*/
+    /*!*background: rgb(85 108 214 / 5%);*!*/
+    /*width: 370px;*/
+    /*height: 200px;*/
+    /*z-index: -1;*/
+    /*transform: rotate(42deg);*/
+    /*right: -56px;*/
+    /*top: -23px;*/
+    /*border-radius: 35px;*/
 }
 
 .solution_cards_box .solution_card:hover .solu_description button {
@@ -553,26 +562,26 @@ li{
     display:block !important;
 }
 .our-team .team-content .name{
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 500;
+    /*letter-spacing: 1px;*/
     display: block;
     margin-bottom: 7px;
     text-transform: uppercase;
     transition:all 0.3s ease 0s;
 }
 .our-team:hover .team-content .name{
-    transform:translateY(40px);
+    /*transform:translateY(40px);*/
     transition-delay:0.3s;
 }
 .our-team .team-content .post{
-    font-size: 14px;
+    font-size: 0.8rem;
     display: block;
     transition:all 0.3s ease 0s;
     text-transform: capitalize;
 }
 .our-team:hover .team-content .post{
-    transform:translateY(-40px);
+    /*transform:translateY(-40px);*/
     transition-delay:0.3s;
 }
 
@@ -624,3 +633,53 @@ li{
 }
 
 /************timeline*********************/
+
+
+/*=========homepage counter===============*/
+#shiva
+{
+    width: 100px;
+    height: 100px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    float:left;
+    margin:5px;
+}
+.count
+{
+    line-height: 100px;
+    color:white;
+    margin-left:30px;
+    font-size:25px;
+}
+#talkbubble {
+    width: 120px;
+    height: 80px;
+    background: red;
+    position: relative;
+    -moz-border-radius:    10px;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
+    float:left;
+    margin:20px;
+}
+#talkbubble:before {
+    content:"";
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid red;
+    border-bottom: 13px solid transparent;
+}
+
+.linker
+{
+    font-size : 20px;
+    font-color: black;
+}
+
