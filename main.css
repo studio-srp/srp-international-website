@@ -50,7 +50,7 @@ nav{
 
 .btns-all{
     border-radius: 12px !important;
-    font-size: 1rem !important;
+    font-size: 0.8rem !important;
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
     padding-right: 1.5rem !important;
@@ -62,6 +62,10 @@ nav{
     position: initial;
     /*height: 100%;*/
 
+}
+.counter-detail{
+    font-size: 0.8rem!important;
+    color: #0284E2 !important;
 }
 
 .cover-banner-content{
@@ -372,7 +376,7 @@ li{
 }
 
 .solution_cards_box .solution_card:hover {
-    background: rgba(2, 43, 160, 0.9);
+    background-color: #061E75 !important;
     color: #fff;
     transform: scale(1.02);
     z-index: 9;
@@ -405,7 +409,7 @@ li{
 
 .solution_cards_box .solution_card:hover .solu_description button {
     background: #fff !important;
-    color:rgba(2, 43, 160, 0.9);
+    color: #0284E2 !important;
 }
 
 .solution_card .so_top_icon {
@@ -421,20 +425,17 @@ li{
 .solution_card .solu_description p {
     font-size: 15px;
     margin-bottom: 15px;
+    color: rgba(2, 43, 160, 0.9);
 }
 
 .solution_card .solu_description button {
     border: 0;
-    border-radius: 15px;
-    background: linear-gradient(
-            140deg,
-            rgba(2, 43, 160, 0.9) 0%,
-            rgba(2, 43, 160, 0.9) 50%,
-            rgba(2, 43, 160, 0.9) 75%
+    border-radius: 8px;
+    background-color: #061E75 !important;
     ) !important;
     color: #fff;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 5px 16px;
 }
 
@@ -444,6 +445,7 @@ li{
     font-size: 2.5rem;
 }
 .our_solution_content p {
+    color: #0284E2 !important;
 }
 
 .hover_color_bubble {
@@ -591,7 +593,7 @@ li{
 .card {
     border: none;
     border-radius: 0;
-    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    box-shadow: 0 2px 4px 0 rgba(175, 180, 199, 0.09), 0 5px 15px 0 rgba(155, 157, 180, 0.15);
 
 }
 
@@ -636,50 +638,18 @@ li{
 
 
 /*=========homepage counter===============*/
-#shiva
-{
-    width: 100px;
-    height: 100px;
-    background: red;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    float:left;
-    margin:5px;
-}
-.count
-{
-    line-height: 100px;
-    color:white;
-    margin-left:30px;
-    font-size:25px;
-}
-#talkbubble {
-    width: 120px;
-    height: 80px;
-    background: red;
-    position: relative;
-    -moz-border-radius:    10px;
-    -webkit-border-radius: 10px;
-    border-radius:         10px;
-    float:left;
-    margin:20px;
-}
-#talkbubble:before {
-    content:"";
-    position: absolute;
-    right: 100%;
-    top: 26px;
-    width: 0;
-    height: 0;
-    border-top: 13px solid transparent;
-    border-right: 26px solid red;
-    border-bottom: 13px solid transparent;
-}
 
-.linker
-{
-    font-size : 20px;
-    font-color: black;
-}
+/*.counter*/
+/*{*/
+/*    text-align: center;*/
+/*}*/
 
+/*.counter-count*/
+/*{*/
+/*    font-size: 50px;*/
+/*    font-weight: bold;*/
+/*    position: relative;*/
+/*    color: #000000;*/
+/*    text-align: center;*/
+/*    display: inline-block;*/
+/*}*/

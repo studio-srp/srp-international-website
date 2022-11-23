@@ -16,6 +16,11 @@
     <link rel="stylesheet" href="bootstrap.css">
 
 
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
     <title>Document</title>
 </head>
 <body>
@@ -84,53 +89,73 @@
 
     <div id="cover-banner" class="container-fluid p-0 m-0 pb-5">
         <div class="row d-flex w-100 justify-content-end align-items-center pr-0 m-0">
-            <div class=" col-lg-7 col-md-7 col-sm-12 col-12 row pl-lg-5 d-flex justify-content-center justify-content-lg-center align-items-center  ">
+            <div class="col-lg-6 col-md-7 col-sm-12 col-12 row pl-lg-5 d-flex justify-content-center justify-content-lg-center align-items-center  ">
                 <div class="row d-flex justify-content-center  align-items-center">
-                    <div class="col-12 col-lg-7 col-md-8 ">
+                    <div class="col-12 col-lg-8 col-md-8 ">
                         <div class=" cover-banner-content container m-sm-1 ">
                             <h1 class="dark-blue-f main-heading">Your partner in all things <span
                                     class="font-weight-bold light-blue-f main-heading">corporate</span></h1>
-                            <p class="cover-banner-content mb-lg-5">SRP International is a regional corporate services provider
+                            <p class="cover-banner-content mb-lg-3">SRP International is a regional corporate services
+                                provider
                                 based
                                 in
                                 Sri Lanka with offices in
                                 the UK,
                                 Singapore, and Dubai.
-                                We provide a range of professional services required to guide our clients throughout their
+                                We provide a range of professional services required to guide our clients throughout
+                                their
                                 business
                                 journey.</p>
                             <button class="btn btn-dark mt-lg-3 mb-5 btns-all">Get in touch</button>
 
-                            <div class="row d-flex justify-content-center align-items-start align-items-lg-start  ">
-                                <div class="col-md-4 text-center text-md-left ">
+                            <div class="counter">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-3 text-center text-lg-left">
+                                            <div class="count-up">
+                                                <div class="row">
+                                                    <h1 class="counter-count font-weight-bolder">100</h1>
+                                                    <h1 class=" font-weight-bolder">+</h1>
+                                                </div>
 
-                                    <h1 class="font-weight-bolder">201+</h1>
-                                    <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1"
-                                          class="purecounter"></span>
-                                    <p class="light-blue-f">Happy Customers</p>
+                                                <p class="counter-detail">Counter 1</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-3 text-center text-lg-left">
+                                            <div class="count-up">
+                                                <div class="row">
+                                                    <h1 class="counter-count font-weight-bolder">150</h1>
+                                                    <h1 class=" font-weight-bolder">+</h1>
+                                                </div>
+                                                <p class=" counter-detail">Happy Customers</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-3 text-center text-lg-left">
+                                            <div class="count-up">
+                                                <div class="row">
+                                                    <h1 class="counter-count font-weight-bolder">200</h1>
+                                                    <h1 class=" font-weight-bolder">+</h1>
+                                                </div>
+                                                <p class="counter-detail">Projects</p>
+                                            </div>
+                                        </div>
 
 
-                                </div>
-                                <div class="col-md-4 text-center text-md-left">
-                                    <h1 class="font-weight-bolder">300+</h1>
-                                    <p class="light-blue-f">Companies</p>
-                                </div>
-                                <div class=" col-md-4 text-center text-md-left">
-                                    <h1 class="font-weight-bolder">1000+</h1>
-                                    <p class="light-blue-f">Projects</p>
+                                    </div>
                                 </div>
                             </div>
+
+
                         </div>
                     </div>
                 </div>
 
             </div>
-            <!--            <div class="bg-success col-lg-5 col-md-5 col-sm-12 col-12 pl-md-5 pr-0 ">-->
-            <!--                <div class="d-flex justify-content-end align-items-center pr-0">-->
-            <img class="col-lg-5 col-md-5 col-sm-12 col-12 p-0 img-fluid  " src="resource/images/Picture.png" alt="...">
-            <!--                </div>-->
+            <img class="col-lg-6 col-md-5 col-sm-12 col-12 p-0 img-fluid  " src="resource/images/SRP-main-image-v2.png"
+                 alt="...">
 
-            <!--            </div>-->
         </div>
 
     </div>
@@ -423,6 +448,22 @@
 </footer>
 
 <script src="main.js"></script>
+<script>
+
+    $('.counter-count').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+
+            //chnage count up speed here
+            duration: 4000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+</script>
 <script>
     const chk = document.getElementById('chk');
 
