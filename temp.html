@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LNPD02</title>
+  <link rel="stylesheet" href="styles.css" />
+
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .text {
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .page1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .page2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .text span {
+      transition: .3s;
+    }
+
+
+    .showtext {
+      display: block;
+      animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+    }
+    .hidetext {
+      opacity: 0;
+      transform: translate(0, 100%);
+    }
+
+
+    @keyframes reveal {
+      0% {
+        transform: translate(0, 100%);
+      }
+      100% {
+        transform: translate(0, 0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="page1">
+  <h1>Scroll down</h1>
+</div>
+
+<div class="page2">
+  <h1 class="text"><span class="hidetext">Animated Text</span></h1>
+</div>
+<script>
+  var text = document.querySelector('.text')
+  function scrolListener(e){
+    var screenTop = document.scrollingElement.scrollTop;
+    var screenBottom = screenTop + innerHeight;
+    var textTop = text.getBoundingClientRect().top
+
+    if ( textTop < screenBottom && textTop < screenTop)
+    {
+      text.children[0].classList.add("showtext");
+      text.children[0].classList.remove("hidetext");
+    }
+
+  }
+
+
+  document.onscroll = scrolListener
+</script>
+</body>
+
+</html>

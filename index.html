@@ -18,11 +18,7 @@
             rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
-    <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-            crossorigin="anonymous"
-    ></script>
+
     <link rel="stylesheet" href="main.css"/>
     <link rel="stylesheet" href="bootstrap.css"/>
 
@@ -36,9 +32,12 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
             rel="stylesheet"
     />
+    <script src="main.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
@@ -132,10 +131,7 @@
                     <div class="col-12 col-lg-8 col-md-8">
                         <div class="cover-banner-content container m-sm-1 ">
 
-                            <h1
-                                    class="dark-blue-f main-heading animated bounceInUp"
-                                    style="animation-delay: 0.5s"
-                            >
+                            <h1 class="dark-blue-f main-heading animated bounceInLeft" style="animation-delay: 0.2s !important;">
                                 Your partner in all things
                                 <span class="font-weight-bold light-blue-f main-heading"
                                 >corporate</span
@@ -203,9 +199,7 @@
         </div>
     </div>
     <div id="what-we-offer-banner" class="container-fluid pt-5 pb-5 pl-0">
-        <div
-                class="row flex-column-reverse flex-md-row d-flex justify-content-lg-start align-items-center pl-0"
-        >
+        <div class="row flex-column-reverse flex-md-row d-flex justify-content-lg-start align-items-center pl-0">
             <div class="col-lg-5 col-md-5 col-sm-12 col-12 pl-0">
                 <div class="d-flex justify-content-end align-items-center">
                     <img
@@ -215,15 +209,12 @@
                     />
                 </div>
             </div>
-            <div
-                    class="col-lg-7 col-md-7 col-sm-12 col-12 row d-flex justify-content-center align-items-center"
-            >
+            <div class="col-lg-7 col-md-7 col-sm-12 col-12 row d-flex justify-content-center align-items-center">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="col-12 col-lg-7 col-md-8">
                         <div class="cover-banner-content container m-sm-1">
-                            <h1 class="dark-blue-f main-heading">What we offer</h1>
-                            <h1 class="dark-blue-f main-heading">
-                    <span class="font-weight-bold light-blue-f main-heading"
+                            <h1 id="what-we-offer-h1" class="dark-blue-f main-heading animated " style="animation-delay: 0.2s !important;">What we offer
+                    <span class="font-weight-bold hidetext light-blue-f main-heading"
                     >Create, build and grow your business</span
                     >
                             </h1>
@@ -588,7 +579,30 @@
     </div>
 </footer>
 
-<script src="main.js"></script>
+
+
+<!--scroll effect-->
+
+<script>
+    var text = document.getElementById("what-we-offer-h1")
+    function scrolListener(e){
+        var screenTop = document.scrollingElement.scrollTop;
+        var screenBottom = screenTop + innerHeight;
+        var textTop = text.getBoundingClientRect().top
+
+        if ( textTop < screenBottom && textTop < screenTop)
+        {
+            text.children[0].classList.add("showtext");
+            text.children[0].classList.add("bounceInUp");
+            text.children[0].classList.remove("hidetext");
+        }
+
+    }
+
+
+    document.onscroll = scrolListener
+
+</script>
 <script>
     $(".counter-count").each(function () {
         $(this)

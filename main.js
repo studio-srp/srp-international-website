@@ -9,4 +9,4 @@ $('.count').each(function () {
         }
     });
 });
-
+<!--text animation effect-->
