@@ -14,7 +14,7 @@
             crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="bootstrap.css">
-
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
     <title>Document</title>
 </head>
@@ -84,7 +84,7 @@
     <div id="cover-banner-text" class="container-fluid p-0 m-0 bg-services">
         <div class="pt-4 pb-4 row d-flex d-block w-100 justify-content-center align-items-center border-g p-0 m-0">
             <div class="col-lg-8 col-12 col-sm-12 col-12 ">
-                <h2 class="text-white ml-lg-5">CONTACT US </h2>
+                <h2 class="text-white ml-lg-5 input"></h2>
             </div>
             <div class="col-lg-4  col-12 col-sm-12 col-12 d-flex justify-content-end align-items-center ">
                 <!--    <nav aria-label="breadcrumb">-->
@@ -263,6 +263,15 @@
 
     </div>
 </footer>
+<script>
+    <!--    typewriter-->
+    var typed = new Typed('.input', {
+        strings: [ "CONTACT US ", "CONTACT US"],
+        typeSpeed: 100,
+        backSpeed:100,
+        // loop:true,
+    });
+</script>
 </body>
 <script>
     const chk = document.getElementById('chk');

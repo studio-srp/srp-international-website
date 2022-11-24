@@ -17,6 +17,7 @@
 
             integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
             crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 
     <!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">-->
@@ -94,7 +95,7 @@
     <div id="cover-banner-text" class="container-fluid p-0 m-0 bg-services">
         <div class="pt-4 pb-4 row d-flex d-block w-100 justify-content-center align-items-center border-g p-0 m-0">
             <div class="col-lg-8 col-md-12 col-sm-12 col-12 ">
-                <h2 class="text-white ml-lg-5 text-uppercase">LATEST news </h2>
+                <h2 id="keys" class="text-white ml-lg-5 text-uppercase input"> </h2>
             </div>
             <div class="col-lg-4 col-md-12 col-sm-12 col-12 d-flex justify-content-end align-items-center  ">
                 <!--    <nav aria-label="breadcrumb">-->
@@ -109,13 +110,13 @@
 
         </div>
     </div>
-    <div id="our values" class="container pt-lg-5 pb-lg-5">
-        <div class="row d-flex justify-content-start align-items-start border-g pt-5 pb-5">
+    <div id="latest-news" class="container pt-lg-5 pb-lg-5">
+        <div class="row d-flex justify-content-center align-items-start border-g pt-5 pb-5">
             <div class="col-lg-9 col-md-12 col-sm-12 col-12 row  d-flex justify-content-center align-items-center border-g pl-lg-4">
 
                 <div class="container ">
 
-                    <div class="  justify-content-center align-items-start pb-3">
+                    <div class="  justify-content-center align-items-start pb-3  bg-light ">
 
                         <div class="col-12 justify-content-center align-items-center mb-3 ">
                             <div class="card card-body">
@@ -247,8 +248,17 @@
 
     </div>
 </footer>
-</body>
 
+
+<script>
+<!--    typewriter-->
+var typed = new Typed('.input', {
+    strings: [ "Latest news", "Latest news"],
+    typeSpeed: 100,
+    backSpeed:100,
+    // loop:true,
+});
+</script>
 <script>
 
     const chk = document.getElementById('chk');
@@ -274,4 +284,5 @@
     /*==========reports===============*/
 
 </script>
+</body>
 </html>

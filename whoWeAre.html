@@ -17,7 +17,7 @@
 
             integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
             crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
     <!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">-->
     <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"-->
@@ -95,7 +95,7 @@
     <div id="cover-banner-text" class="container-fluid p-0 m-0 bg-services">
         <div class="pt-4 pb-4 row d-flex d-block w-100 justify-content-center align-items-center border-g p-0 m-0">
             <div class="col-lg-8 col-md-12 col-sm-12 col-12  ">
-                <h2 class="text-white ml-lg-5 text-uppercase">who we are</h2>
+                <h2 class="text-white ml-lg-5 text-uppercase input"></h2>
             </div>
             <div class="col-lg-4 col-md-12 col-sm-12 col-12 d-flex justify-content-end align-items-center ">
                 <!--    <nav aria-label="breadcrumb">-->
@@ -426,6 +426,15 @@
 
     close_btn.addEventListener('click', () => {
         social_panel_container.classList.remove('visible')
+    });
+</script>
+<script>
+    <!--    typewriter-->
+    var typed = new Typed('.input', {
+        strings: [ "who we are", "who we are"],
+        typeSpeed: 100,
+        backSpeed:100,
+        // loop:true,
     });
 </script>
 </html>

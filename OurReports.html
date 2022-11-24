@@ -8,6 +8,7 @@
 
 
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
           integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
@@ -102,7 +103,7 @@
     <div id="cover-banner-text" class="container-fluid p-0 m-0 bg-services">
         <div class="pt-4 pb-4 row d-flex d-block w-100 justify-content-center align-items-center border-g p-0 m-0">
             <div class="col-lg-8 col-md-12 col-sm-12 col-12 ">
-                <h2 class="text-white ml-lg-5 text-uppercase">Reports </h2>
+                <h2 class="text-white ml-lg-5 text-uppercase input"></h2>
             </div>
             <div class="col-lg-4 col-md-12 col-sm-12 col-12 d-flex justify-content-end align-items-center ">
                 <!--    <nav aria-label="breadcrumb">-->
@@ -321,7 +322,15 @@
     </div>
 </footer>
 </body>
-
+<script>
+    <!--    typewriter-->
+    var typed = new Typed('.input', {
+        strings: [ "Reports", "Reports"],
+        typeSpeed: 100,
+        backSpeed:100,
+        // loop:true,
+    });
+</script>
 <script>
 
     const chk = document.getElementById('chk');

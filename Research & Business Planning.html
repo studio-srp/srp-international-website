@@ -15,7 +15,7 @@
           integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <script defer src="https://use.fontawesome.com/releases/vVERSION/js/all.js" data-mutate-approach="sync"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
 
             integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
@@ -94,7 +94,7 @@
     <div id="cover-banner-text" class="container-fluid p-0 m-0 bg-services">
         <div class="pt-4 pb-4 row d-flex d-block w-100 justify-content-center align-items-center border-g p-0 m-0">
             <div class="col-lg-8 col-md-12 col-sm-12 col-12 ">
-                <h2 class="text-white ml-lg-5 text-uppercase">Research & Business Planning </h2>
+                <h2 class="text-white ml-lg-5 text-uppercase input"></h2>
             </div>
             <div class="col-lg-4 col-md-12 col-sm-12 col-12 d-flex justify-content-end align-items-center ">
                 <!--    <nav aria-label="breadcrumb">-->
@@ -123,7 +123,7 @@
                                 do for me?</h1>
                             <p>By engaging Silk Road Research & Business Planning, you will gain valuable knowledge and save
                             both time and money. A well researched feasibility study will determine if your dream can
-                            become a reality. Once you are convinced, a well structured business plan will save you time
+                            become a reality. Once you are convinced, a well-structured business plan will save you time
                             and money. After a period of operations, a forensic evaluation will clearly show where your
                             business can improve. At every stage of your business cycle, there is a need to research and
                             plan. In addition to these practical tools, Silk Road Research can deliver high quality,
@@ -284,7 +284,15 @@
     </div>
 </footer>
 </body>
-
+<script>
+    <!--    typewriter-->
+    var typed = new Typed('.input', {
+        strings: [ "Research & Business Planning", "Research & Business Planning"],
+        typeSpeed: 100,
+        backSpeed:100,
+        // loop:true,
+    });
+</script>
 <script>
 
     const chk = document.getElementById('chk');
