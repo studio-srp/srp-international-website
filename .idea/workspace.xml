@@ -67,6 +67,21 @@
       <recent name="C:\Users\Silk Road Studio\OneDrive\Desktop\SRP International\web-site\untitled" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="untitled" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -94,6 +109,7 @@
       <workItem from="1669109050715" duration="2894000" />
       <workItem from="1669173784531" duration="22326000" />
       <workItem from="1669253083920" duration="85000" />
+      <workItem from="1669263268451" duration="2279000" />
     </task>
     <servers />
   </component>

@@ -168,7 +168,10 @@ body.dark {
     color: white !important;
   }
 }
-
+.counter-detail{
+  color: #0284e2 !important;
+  font-size: 0.8rem;
+}
 .h-md-45 {
   min-height: 45vh;
 }
