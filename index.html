@@ -32,6 +32,10 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
             rel="stylesheet"
     />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <script src="main.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -131,10 +135,10 @@
                     <div class="col-12 col-lg-8 col-md-11 col-sm-12">
                         <div class="cover-banner-content container m-sm-1 ">
 
-                            <h1 class="dark-blue-f main-heading animated bounceInLeft"
+                            <h1 id="cover-banner-h1" class="dark-blue-f main-heading animated flipInX"
                                 style="animation-delay: 0.2s !important;">
                                 Your partner in all things
-                                <span class="font-weight-bold light-blue-f main-heading"
+                                <span class="font-weight-bold light-blue-f main-heading animated flipInX"
                                 >corporate</span
                                 >
                             </h1>
@@ -192,8 +196,8 @@
 
             </div>
             <img class="col-lg-6 col-md-5 col-sm-12 col-12 p-0 img-fluid"
-                    src="resource/images/SRP-main-image-v2.png"
-                    alt="..."
+                 src="resource/images/SRP-main-image-v2.png"
+                 alt="..."
             />
         </div>
     </div>
@@ -395,7 +399,7 @@
         <div class="row flex-column-reverse flex-md-row d-flex justify-content-center align-items-center border-g pt-5 pb-5">
             <div class="col-lg-5 col-md-5 col-sm-12 col-12 p-0 col-12 row d-flex justify-content-lg-start align-items-center border-g">
                 <div class="container border-g m-sm-1">
-                    <h1 class="dark-blue-f main-heading">Global</h1>
+                    <h1 id="global-services-h1" class="dark-blue-f main-heading">Global </h1>
                     <h1>
                         <span class="font-weight-bold light-blue-f main-heading">Services</span>
                     </h1>
@@ -452,7 +456,7 @@
             >
                 <div class="text-center text-lg-left">
                     <img
-                            class="img-fluid icon-nro pb-3"
+                            class="img-fluid icon-nro pb-3 animated pulse"
                             src="resource/logo/newspaper.png"
                             alt="..."
                     />
@@ -568,23 +572,40 @@
         var screenTop = document.scrollingElement.scrollTop;
         var screenBottom = screenTop + innerHeight;
         var textTop = text.getBoundingClientRect().top
-
         if (textTop < screenBottom && textTop < screenTop) {
             text.classList.remove("hidetext");
             text.classList.add("showtext");
-            text.classList.add("bounceInUp");
+            text.classList.add("animate__flipInX");
             text.children[0].classList.remove("hidetext");
             text.children[0].classList.add("showtext");
-            text.children[0].classList.add("bounceInUp");
-
+            text.children[0].classList.add("animate__flipInX");
         }
-
     }
 
 
     document.onscroll = scrolListener
 
+
 </script>
+<!--<script>-->
+<!--    var globalservices = document.getElementById("global-services-h1")-->
+<!--    /*cover*/-->
+<!--    function scrolListener1(e) {-->
+<!--        var screenTop1 = document.scrollingElement.scrollTop;-->
+<!--        var screenBottom1 = screenTop1 + innerHeight;-->
+<!--        var coverTop1 = globalservices.getBoundingClientRect().top-->
+<!--        if (coverTop1 < screenBottom1 && coverTop1 < screenTop1) {-->
+<!--            globalservices.classList.remove("hidetext");-->
+<!--            globalservices.classList.add("showtext");-->
+<!--            globalservices.classList.add("animate__flipInX");-->
+<!--            globalservices.children[0].classList.remove("hidetext");-->
+<!--            globalservices.children[0].classList.add("showtext");-->
+<!--            globalservices.children[0].classList.add("animate__flipInX");-->
+
+<!--        }-->
+<!--    }-->
+<!--    document.onscroll = scrolListener1-->
+<!--</script>-->
 <script>
     $(".counter-count").each(function () {
         $(this)
@@ -604,6 +625,7 @@
             );
     });
 </script>
+
 <script>
     const chk = document.getElementById("chk");
 
