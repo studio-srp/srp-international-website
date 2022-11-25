@@ -82,6 +82,10 @@ nav {
   font-size: 1.8rem;
   color: #061e75;
 }
+.blog-page-heading {
+  font-size: 2.1em !important;
+  color: #061e75;
+}
 .blog-h2 {
   font-size: 1.5rem;
   background-color: #061e75 !important;
