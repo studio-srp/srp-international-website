@@ -182,7 +182,10 @@ body.dark {
 }
 .h-md-45 {
   min-height: 45vh;
+  .
 }
+
+
 /*************************************************************************/
 
 .separator {
@@ -351,7 +354,11 @@ li {
 }
 
 /*///////////////////////////////************************************************************/
-
+@media only screen and (max-width: 991px) and (min-width: 576px)  {
+  .solution_card{
+    min-height: 300px !important;
+  }
+}
 .section_our_solution .row {
   align-items: center;
 }
@@ -380,7 +387,9 @@ li {
   min-height: 265px;
   transition: 0.2s;
 }
+@media screen {
 
+}
 .solution_card:hover {
   background: rgba(2, 43, 160, 0.9);
   color: #fff;
@@ -638,52 +647,146 @@ li {
 /************timeline*********************/
 
 /*=========homepage counter===============*/
-#shiva {
-  width: 100px;
-  height: 100px;
-  background: red;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  float: left;
-  margin: 5px;
-}
-.count {
-  line-height: 100px;
-  color: white;
-  margin-left: 30px;
-  font-size: 25px;
-}
-#talkbubble {
-  width: 120px;
-  height: 80px;
-  background: red;
-  position: relative;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  float: left;
-  margin: 20px;
-}
-#talkbubble:before {
-  content: "";
-  position: absolute;
-  right: 100%;
-  top: 26px;
-  width: 0;
-  height: 0;
-  border-top: 13px solid transparent;
-  border-right: 26px solid red;
-  border-bottom: 13px solid transparent;
-}
-
-.linker {
-  font-size: 20px;
-  color: black;
-}
 
 /* Positioning Countries on the map */
+/*@media (min-width: 992px) {*/
+/*  .srilanka {*/
+/*    position: absolute;*/
+/*    width: 15px;*/
+/*    opacity: 0;*/
+/*    top: 222.5px;*/
+/*    right: 186px;*/
+/*    transition: 0.3s ease-in all;*/
+/*    backface-visibility: hidden;*/
+/*  }*/
+
+/*  .uk {*/
+/*    position: absolute;*/
+/*    width: 23px;*/
+/*    top: 143px;*/
+/*    left: 249px;*/
+/*    opacity: 0;*/
+/*    transition: 0.3s ease-in all;*/
+/*    backface-visibility: hidden;*/
+/*  }*/
+/*  .dubai {*/
+/*    position: absolute;*/
+/*    width: 23px;*/
+/*    top: 196.5px;*/
+/*    left: 317px;*/
+/*    opacity: 0;*/
+/*    transition: 0.3s ease-in all;*/
+/*    backface-visibility: hidden;*/
+/*  }*/
+/*  .singapore {*/
+/*    position: absolute;*/
+/*    width: 21px;*/
+/*    bottom: 132px;*/
+/*    right: 157px;*/
+/*    opacity: 0;*/
+/*    transition: 0.3s ease-in all;*/
+/*    backface-visibility: hidden;*/
+/*  }*/
+
+/*  .srilanka:hover {*/
+/*    right: 150px;*/
+/*    top: 60px;*/
+/*    width: 150px;*/
+/*    opacity: 1;*/
+/*  }*/
+
+/*  .uk:hover {*/
+/*    top: 30px;*/
+/*    left: 135px;*/
+/*    width: 200px;*/
+/*    opacity: 1;*/
+/*  }*/
+
+/*  .singapore:hover {*/
+/*    opacity: 1;*/
+/*    width: 300px;*/
+/*    bottom: 80px;*/
+/*    right: 67px;*/
+/*  }*/
+
+/*  .dubai:hover {*/
+/*    width: 300px;*/
+/*    top: 50.5px;*/
+/*    left: 150px;*/
+/*    opacity: 1;*/
+/*  }*/
+/*}*/
+
+/*@media (min-width: 1200px) {*/
+/*  .srilanka {*/
+/*    width: 15px;*/
+/*    top: 269.5px;*/
+/*    right: 226px;*/
+/*    opacity: 0;*/
+/*  }*/
+
+/*  .uk {*/
+/*    width: 32px;*/
+/*    top: 168px;*/
+/*    left: 288px;*/
+/*  }*/
+
+/*  .singapore {*/
+/*    width: 21px;*/
+/*    bottom: 158px;*/
+/*    right: 185px;*/
+/*  }*/
+
+/*  .dubai {*/
+/*    width: 23px;*/
+/*    top: 242.5px;*/
+/*    left: 381px;*/
+/*  }*/
+
+/*  .singapore:hover {*/
+/*    width: 300px;*/
+/*    bottom: 80px;*/
+/*    right: 80px;*/
+/*  }*/
+
+/*  .uk:hover {*/
+/*    top: 30px;*/
+/*    left: 165px;*/
+/*    width: 200px;*/
+/*    opacity: 1;*/
+/*  }*/
+
+/*  .dubai:hover {*/
+/*    width: 300px;*/
+/*    top: 100.5px;*/
+/*    left: 210px;*/
+/*  }*/
+/*}*/
+
+/*@media (max-width: 992px) {*/
+/*  .srilanka {*/
+/*    display: none;*/
+/*  }*/
+
+/*  .dubai {*/
+/*    display: none;*/
+/*  }*/
+
+/*  .uk {*/
+/*    display: none;*/
+/*  }*/
+
+/*  .singapore {*/
+/*    display: none;*/
+/*  }*/
+/*}*/
+
+/* animations */
+
 @media (min-width: 992px) {
+  .world-map__gif {
+    display: none;
+  }
   .srilanka {
     position: absolute;
     width: 15px;
@@ -693,7 +796,6 @@ li {
     transition: 0.3s ease-in all;
     backface-visibility: hidden;
   }
-
   .uk {
     position: absolute;
     width: 23px;
@@ -721,28 +823,24 @@ li {
     transition: 0.3s ease-in all;
     backface-visibility: hidden;
   }
-
   .srilanka:hover {
     right: 150px;
     top: 60px;
     width: 150px;
     opacity: 1;
   }
-
   .uk:hover {
     top: 30px;
     left: 135px;
     width: 200px;
     opacity: 1;
   }
-
   .singapore:hover {
     opacity: 1;
     width: 300px;
     bottom: 80px;
     right: 67px;
   }
-
   .dubai:hover {
     width: 300px;
     top: 50.5px;
@@ -750,7 +848,14 @@ li {
     opacity: 1;
   }
 }
-
+@media (max-width: 992px) {
+  .world-map {
+    display: none;
+  }
+  /* .global-section {
+      f
+  }*/
+}
 @media (min-width: 1200px) {
   .srilanka {
     width: 15px;
@@ -758,62 +863,49 @@ li {
     right: 226px;
     opacity: 0;
   }
-
   .uk {
     width: 32px;
     top: 168px;
     left: 288px;
   }
-
   .singapore {
     width: 21px;
     bottom: 158px;
     right: 185px;
   }
-
   .dubai {
     width: 23px;
     top: 242.5px;
     left: 381px;
   }
-
   .singapore:hover {
     width: 300px;
     bottom: 80px;
     right: 80px;
   }
-
   .uk:hover {
     top: 30px;
     left: 165px;
     width: 200px;
     opacity: 1;
   }
-
   .dubai:hover {
     width: 300px;
     top: 100.5px;
     left: 210px;
   }
 }
-
 @media (max-width: 992px) {
   .srilanka {
     display: none;
   }
-
   .dubai {
     display: none;
   }
-
   .uk {
     display: none;
   }
-
   .singapore {
     display: none;
   }
 }
-
-/* animations */
-
