@@ -355,12 +355,12 @@ li {
   flex-wrap: wrap;
 }
 .our_solution_category .solution_cards_box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*justify-content: center;*/
 }
-.solution_cards_box .solution_card {
-  flex: 0 100%;
+ .solution_card {
+  /*flex: 0 100%;*/
   background: #fff;
   box-shadow: 0 2px 4px 0 rgba(175, 180, 199, 0.09),
     0 5px 15px 0 rgba(155, 157, 180, 0.15);
@@ -370,11 +370,11 @@ li {
   position: relative;
   z-index: 1;
   overflow: hidden;
-  /*min-height: 265px;*/
+  min-height: 265px;
   transition: 0.2s;
 }
 
-.solution_cards_box .solution_card:hover {
+.solution_card:hover {
   background: rgba(2, 43, 160, 0.9);
   color: #fff;
   transform: scale(1.02);
@@ -383,17 +383,17 @@ li {
   text-decoration: none !important;
 }
 
-.solution_cards_box .solution_card:hover::before {
+.solution_card:hover::before {
   background: rgb(85 108 214 / 10%);
 }
 
-.solution_cards_box .solution_card:hover .solu_title h3,
-.solution_cards_box .solution_card:hover .solu_description p {
+ .solution_card:hover .solu_title h3,
+ .solution_card:hover .solu_description p {
   color: #fff;
   text-decoration: none !important;
 }
 
-.solution_cards_box .solution_card:before {
+.solution_card:before {
   /*content: "";*/
   /*position: absolute;*/
   /*!*background: rgb(85 108 214 / 5%);*!*/
@@ -406,7 +406,7 @@ li {
   /*border-radius: 35px;*/
 }
 
-.solution_cards_box .solution_card:hover .solu_description button {
+.solution_card:hover .solu_description button {
   background: #fff !important;
   color: rgba(2, 43, 160, 0.9);
 }
@@ -464,11 +464,11 @@ li {
   transition: 0.7s;
 }
 
-.solution_cards_box .solution_card:hover .hover_color_bubble {
+.solution_card:hover .hover_color_bubble {
   top: 0rem;
 }
 
-.solution_cards_box .solution_card .so_top_icon {
+.solution_card .so_top_icon {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -479,7 +479,7 @@ li {
   justify-content: center;
 }
 
-.solution_cards_box .solution_card .so_top_icon img {
+.solution_card .so_top_icon img {
   width: 40px;
   height: 50px;
   object-fit: contain;
@@ -498,12 +498,12 @@ li {
   }
 
   .our_solution_category .solution_cards_box {
-    flex: auto;
+    /*flex: auto;*/
   }
 }
 @media only screen and (min-width: 768px) {
   .our_solution_category .solution_cards_box {
-    flex: 2;
+    /*flex: 2;*/
   }
   .our_solution_category {
     width: 100% !important;
