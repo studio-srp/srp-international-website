@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31e20119-858c-48aa-bbc5-9035904b4f1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resource/images/dubai.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/images/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/images/singapore.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/images/srilanka.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/images/uk.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Financial Services.html" beforeDir="false" afterPath="$PROJECT_DIR$/Financial Services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human-resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/Human-resources.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OurReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurReports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Research &amp; Business Planning.html" beforeDir="false" afterPath="$PROJECT_DIR$/Research &amp; Business Planning.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company-secretarial.html" beforeDir="false" afterPath="$PROJECT_DIR$/company-secretarial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contactUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/contactUs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latest news.html" beforeDir="false" afterPath="$PROJECT_DIR$/latest news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/whoWeAre.html" beforeDir="false" afterPath="$PROJECT_DIR$/whoWeAre.html" afterDir="false" />
     </list>
@@ -46,22 +45,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Silk Road Studio/OneDrive/Desktop/SRP International/web-site/untitled",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Silk Road Studio/OneDrive/Desktop/SRP International/web-site/untitled&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Silk Road Studio\OneDrive\Desktop\SRP International\web-site\untitled" />
@@ -111,6 +110,12 @@
       <workItem from="1669173784531" duration="22326000" />
       <workItem from="1669253083920" duration="85000" />
       <workItem from="1669263268451" duration="52185000" />
+      <workItem from="1669609913330" duration="1777000" />
+      <workItem from="1669686471210" duration="642000" />
+      <workItem from="1669779977178" duration="793000" />
+      <workItem from="1669789048930" duration="5000" />
+      <workItem from="1672638287924" duration="43000" />
+      <workItem from="1672638358794" duration="4217000" />
     </task>
     <servers />
   </component>
