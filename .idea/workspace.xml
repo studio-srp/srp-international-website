@@ -6,9 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="31e20119-858c-48aa-bbc5-9035904b4f1b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4 day work blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog-pages/4 day work blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ceylon product blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog-pages/Ceylon product blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Financial Services.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services-pages/Financial Services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human-resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services-pages/Human-resources.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Research &amp; Business Planning.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services-pages/Research &amp; Business Planning.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shakticola blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog-pages/Shakticola blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company-secretarial.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services-pages/company-secretarial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fontawesome-all.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fontawesome-all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latest news.html" beforeDir="false" afterPath="$PROJECT_DIR$/latest news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whoWeAre.html" beforeDir="false" afterPath="$PROJECT_DIR$/whoWeAre.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +65,13 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Silk Road Studio\OneDrive\Desktop\SRP International\web-site\untitled" />
       <recent name="C:\Users\Silk Road Studio\OneDrive\Desktop\SRP International\web-site\untitled\resource\SRP-Home" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Silk Road Studio\OneDrive\Desktop\SRP International\web-site\untitled\css\" />
+      <recent name="C:\Users\Silk Road Studio\OneDrive\Desktop\SRP International\web-site\untitled\pages\blog-pages\" />
+      <recent name="C:\Users\Silk Road Studio\OneDrive\Desktop\SRP International\web-site\untitled\pages\services-pages\" />
+      <recent name="C:\Users\Silk Road Studio\OneDrive\Desktop\SRP International\web-site\untitled" />
+      <recent name="C:\Users\Silk Road Studio\OneDrive\Desktop\SRP International\web-site\untitled\pages\" />
     </key>
   </component>
   <component name="RunManager">
@@ -109,6 +125,7 @@
       <workItem from="1672638358794" duration="4217000" />
       <workItem from="1673249275430" duration="7000" />
       <workItem from="1673495081849" duration="7000" />
+      <workItem from="1673581019285" duration="2245000" />
     </task>
     <servers />
   </component>
