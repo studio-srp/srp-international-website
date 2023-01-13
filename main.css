@@ -8,6 +8,9 @@
 	/*overflow-x: hidden;*/
 	/*font-size: 1rem;*/
 }
+body{
+	overflow-x: hidden; // hide horizontal
+}
 .border-g {
 	/*border: 1px solid green;*/
 }
